@@ -3,25 +3,25 @@ jvm字节码的中文意思
 
 ### 栈和局部变量操作 
 ## 将常量压入栈的指令 
-aconst_null         将null对象引用压入栈 
-iconst_m1         将int类型常量-1压入栈 
-iconst_0         将int类型常量0压入栈 
-iconst_1         将int类型常量1压入栈 
-iconst_2         将int类型常量2压入栈 
-iconst_3         将int类型常量3压入栈 
-iconst_4         将int类型常量4压入栈 
-iconst_5         将int类型常量5压入栈 
-lconst_0         将long类型常量0压入栈 
-lconst_1         将long类型常量1压入栈 
-fconst_0         将float类型常量0压入栈 
-fconst_1         将float类型常量1压入栈 
-dconst_0         将double类型常量0压入栈 
-dconst_1         将double类型常量1压入栈 
-bipush             将一个8位带符号整数压入栈 
-sipush             将16位带符号整数压入栈 
-ldc             把常量池中的项压入栈 
-ldc_w             把常量池中的项压入栈（使用宽索引） 
-ldc2_w             把常量池中long类型或者double类型的项压入栈（使用宽索引） 
+           aconst_null         将null对象引用压入栈 
+           iconst_m1         将int类型常量-1压入栈 
+           iconst_0         将int类型常量0压入栈 
+           iconst_1         将int类型常量1压入栈 
+           iconst_2         将int类型常量2压入栈 
+           iconst_3         将int类型常量3压入栈 
+           iconst_4         将int类型常量4压入栈 
+           iconst_5         将int类型常量5压入栈 
+           lconst_0         将long类型常量0压入栈 
+           lconst_1         将long类型常量1压入栈 
+           fconst_0         将float类型常量0压入栈 
+           fconst_1         将float类型常量1压入栈 
+           dconst_0         将double类型常量0压入栈 
+           dconst_1         将double类型常量1压入栈 
+           bipush             将一个8位带符号整数压入栈 
+           sipush             将16位带符号整数压入栈 
+           ldc             把常量池中的项压入栈 
+           ldc_w             把常量池中的项压入栈（使用宽索引） 
+           ldc2_w             把常量池中long类型或者double类型的项压入栈（使用宽索引） 
 ### 从栈中的局部变量中装载值的指令 
 iload             从局部变量中装载int类型值 
 lload             从局部变量中装载long类型值 
